@@ -1,0 +1,64 @@
+$font-stack-document: 'helvetica neue', Arial, Helvetica, sans-serif;
+$font-stack-header: 'Faster One', cursive;
+$red: #FE001A; 
+$black: #000;
+$vintage-color: #fff6c7;
+
+html {
+    font-family: $font-stack-document;
+    background-color: $vintage-color;
+}
+
+body {
+    width: 800px;
+    margin: 0 auto;
+}
+
+h1, h2 { 
+    font-family: $font-stack-header;
+}
+
+/* Header Styles */ 
+
+h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+header {
+    p {
+        font-size: 1.3rem;
+        font-weight: bold;
+        text-align: center;
+    }
+}
+
+/* Section Styles */ 
+
+section {
+
+    border: 2px solid $black;
+
+    article {
+        width: 33%;
+        float: left;
+    }
+
+    p {
+        margin: 5px 5px;
+        font-weight: bold;
+        font-size: 1.1rem;
+    }
+
+    ul {
+        margin-top: 0;
+        list-style: none;
+        font-weight: bold;
+    }
+}
+
+h2 {
+    font-size: 2.5rem;
+    letter-spacing: -5px;
+    margin-bottom: 10px;
+}
